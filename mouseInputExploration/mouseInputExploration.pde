@@ -14,7 +14,7 @@ void draw() {
 
   fill(value);
   
-  // notice how I'm multiplying the changing value by 0.7... what is it doing?
+  // I changed it to a Rect and made it so its *1 not *0.7
    rect(mouseX,mouseY, value*1 , value*1 + 5);
 }
 

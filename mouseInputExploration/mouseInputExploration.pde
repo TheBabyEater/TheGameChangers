@@ -15,8 +15,8 @@ void draw() {
   fill(value);
   
   // I changed it to a Rect and made it so its *1 not *0.7
-  // I added some values to try and make the mousemore centralized on the object
-   rect(mouseX-100,mouseY-100, value*1 , value*1 + 5);
+  // The mouse has been put back in its original position
+   rect(mouseX,mouseY, value*1 , value*1 + 5);
 }
 
   // I wanted to be able to "clear" the drawing when I clicked the mouse... this worked and

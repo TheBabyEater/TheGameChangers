@@ -15,7 +15,6 @@ void draw() {
   fill(value);
   
   // I changed it to a Rect and made it so its *1 not *0.7
-  // The mouse has been put back in its original position
    rect(mouseX,mouseY, value*1 , value*1 + 5);
 }
 

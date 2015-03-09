@@ -70,7 +70,7 @@ void runGame(){
     ateFood();
     checkHitSelf();
   }else{
-      String modelString = "No Love";
+      String modelString = "Its All Ogre";
       textAlign (CENTER);
       textFont(Font);
       text(modelString,100,100,40); 

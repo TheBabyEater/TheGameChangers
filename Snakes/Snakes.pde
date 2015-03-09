@@ -6,7 +6,7 @@
 // This is a classic snake game, just made it for fun.
 //
 
-color col=color(255,255,192);
+color col=color(255,255,195);
 color foodColor = color(255,0, 0);
 float speed = 100;
 int cx, cy;

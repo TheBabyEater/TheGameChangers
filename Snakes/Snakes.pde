@@ -10,7 +10,6 @@ color col=color(255,255,195);
 color foodColor = color(255,0, 0);
 float speed = 100;
 int cx, cy;
-
 int moveX = 0;
 int moveY = 0;
 int snakeX = 0;
@@ -21,7 +20,7 @@ boolean check = true;
 int []snakesX;
 int []snakesY;
 int snakeSize = 1;
-int windowSize = 200;
+int windowSize = 500;
 boolean gameOver = false;
 PFont Font = createFont("Arial",20, true);
 void setup(){
@@ -48,7 +47,7 @@ void setup(){
 void draw(){
   
   if(speed%10 == 0){
-    background(75, 75, 75);
+    background(0);
     runGame();
   }
   speed++;

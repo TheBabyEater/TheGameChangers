@@ -20,7 +20,7 @@ boolean check = true;
 int []snakesX;
 int []snakesY;
 int snakeSize = 1;
-int windowSize = 300;
+int windowSize = 200;
 boolean gameOver = false;
 PFont Font = createFont("Arial",20, true);
 void setup(){

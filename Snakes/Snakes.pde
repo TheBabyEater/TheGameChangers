@@ -108,7 +108,7 @@ void drawfood(){
     
   }
   
-  rect(foodX-5, foodY-5, 10, 10);
+  ellipse(foodX, foodY, 10, 10);
     
 }
 void drawSnake(){

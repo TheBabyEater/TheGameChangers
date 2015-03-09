@@ -46,7 +46,7 @@ void setup(){
  
 void draw(){
   
-  if(speed%10 == 0){
+  if(speed%7 == 0){
     background(75,75,75);
     runGame();
   }
